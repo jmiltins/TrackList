@@ -110,7 +110,6 @@
         <!--Movie-->
         <scene sceneID="N1E-BY-hH6">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CDU-b8-xtn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="dyi-9T-Aek" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Movie" image="film" catalog="system" id="qiK-fb-19R"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gk1-wz-Nun">
@@ -121,6 +120,7 @@
                         <segue destination="CXG-yd-sZY" kind="relationship" relationship="rootViewController" id="QMW-ul-qkT"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CDU-b8-xtn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2312" y="767"/>
         </scene>
@@ -175,7 +175,6 @@
         <!--Music-->
         <scene sceneID="T0K-aJ-foa">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PEV-mP-91b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ung-gb-mmG" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Music" image="music.note" catalog="system" id="gnm-Ov-Qhh"/>
                     <toolbarItems/>
@@ -188,6 +187,7 @@
                         <segue destination="WYJ-cS-eHf" kind="relationship" relationship="rootViewController" id="EFL-qK-2Mf"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PEV-mP-91b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2297.1014492753625" y="65.217391304347828"/>
         </scene>
@@ -231,10 +231,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="Det-hX-MmX"/>
                     <connections>
-                        <outlet property="movieImageViev" destination="Rs8-M7-TUX" id="VPb-EW-vfO"/>
-                        <outlet property="movieTitleView" destination="Ff2-mu-RnT" id="bFL-hZ-vQa"/>
-                        <outlet property="trackImageView" destination="Rs8-M7-TUX" id="Y6K-wu-FhI"/>
-                        <outlet property="trackNameLabel" destination="Ff2-mu-RnT" id="d2X-We-ax5"/>
+                        <outlet property="movieImageViev" destination="Rs8-M7-TUX" id="UIM-GZ-ur1"/>
+                        <outlet property="movieTitleView" destination="Ff2-mu-RnT" id="VAy-cX-AP3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s0H-Cl-lvN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

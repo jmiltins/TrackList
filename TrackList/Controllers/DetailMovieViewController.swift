@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DetailMovieViewController: UITableViewController {
+class DetailMovieViewController: UIViewController {
 
     @IBOutlet weak var movieImageViev: UIImageView!
     
